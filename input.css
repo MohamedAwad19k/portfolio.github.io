@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .my-custom {
+        left: 27.5rem;
+        border: 5px, black;
+        bottom: 32rem;
+        height: 28rem;
+        bottom: 9rem;
+    }
+}

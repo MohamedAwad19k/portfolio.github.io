@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="input.css">
+    
+</head>
+<body class="font-sans">
+    <div class="h-1/2 lg:h-screen bg-gray-900 relative overflow-hidden">
+       
+        <nav class="w-full fixed top-0 bg-gray-900 z-10">
+            <div class="container mx-auto py-5 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <img class="w-8" src="" alt="">
+                <span class="text-2xl font-bold text-white">Portfolio</span>
+            </div>
+            <ul class="flex justify-center space-x-10 text-white font-bold text-sm uppercase relative right-14">
+                <li class="hover:text-gray-500">
+                    <a href="#Home">Home</a>
+                </li>
+                <li class="hover:text-gray-500">
+                    <a href="#About">About</a>
+                </li>
+                <li class="hover:text-gray-500">
+                    <a href="#Skills">Skills</a>
+                </li>
+                <li class="hover:text-gray-500">
+                    <a href="#Projects">Projects</a>
+                </li>
+                <li class="hover:text-gray-500">
+                    <a href="#Contact">Contact Me</a>
+                </li>
+            </ul>
+            <img src="" class="hidden md:block w-5 cursor-pointer">
+            <div id="menuLine" class="space-y-1 md:hidden cursor-pointer z-20">
+                <div class="w-6 h-0.5 bg-black"></div>
+                <div class="w-6 h-0.5 bg-black"></div>
+                <div class="w-6 h-0.5 bg-black"></div>
+            </div>
+            <ul id="theMenu" class="hidden bg-indigo-900 absolute left-0 top-0 w-full p-10 rounded-b-3xl space-y-10 text-white text-center">
+                <li>
+                    <a id="hLink" href="#Home">Home</a>
+                </li>
+                <li>
+                    <a id="hLink" href="#About">About</a>
+                </li>
+                <li>
+                    <a id="hLInk" href="#Skills">Skills</a>
+                </li>
+                <li>
+                    <a id="hLInk" href="#Projects">Projects</a>
+                </li>
+                <li>
+                    <a id="hLInk" href="#Contact">Contact Me</a>
+                </li>
+            </ul>
+        </nav>
+
+        <img class="absolute bottom-0 right-0 lg:left:0 mx-auto h-5/6 object-cover" src="" alt="">
+
+        <div class="hidden lg:block absolute -bottom-1/4 right-0 left-0 mx-auto w-96 h-96 bg-purple-600 rounded-full -z-10"></div>
+
+        <div class="absolute top-1/3 left-5 text-xl sm:left-10 sm:text-4xl md:left-1/4 md:text-6xl lg:left-5 xl:left-48 xl:text-7xl font-bold">
+            <span class="text-white">Front-End</span>
+            <p id = "text" class="text-purple-700"></p>
+        </div>
+        <div id="Home"></div>
+
+        <div class="hidden lg:flex flex-col gap-5 rounded-md shadow-xl absolute top-0 bottom-0 m-auto right-10 bg-white p-6 h-fit w-1/3">
+            <h1 class="text-4xl font-bold text-indigo-900">Hi, I'm Mohamed</h1>
+            <p class="text-gray-400">I am a front end developer who is dedicated to explore new ways to craft & achieve ways of developing sites if you are in need . </p>
+            <a class = "bg-purple-700 px-3 py-2 rounded-md font-semibold w-fit inline-block hover:bg-transparent hover:border-purple-700 hover:text-black duration-300 hover:border border-transparent" href="#ontact">Contact Me</a>
+        </div>
+    </div>
+    <div id="About"></div>
+        <div id = "" class="px-10">
+            <div class="container mx-auto py-40 flex flex-col-reverse lg:flex-row items-center gap-20"></div>
+
+            <div class="relative">
+                <img class = "h-1/4 absolute top-0 left-0 -z-10" src="" alt="">
+                <div class="rounded-full ">
+                    <img class="h-[28rem] relative bottom-[9rem] rounded-3xl py-auto" src="images\picof5.jpeg" alt="">
+                </div>
+            </div>
+         
+            <div class="mx-64 left-44 relative bottom-[32rem] flex flex-col gap-3">
+                <h1 class="text-purple-700 font-bold">ABOUT ME</h1>
+                <h1 class="text-3xl font-medium">SKILLS & EXPERIENCE</h1>
+                <p class="text-gray-400">I am a front end web developer with several of coding experience who is able to develop something beyond your expections.</p>
+                <h2 class="text-gray-400 font-medium">HTML</h2>
+                <div class="w-full bg-gray-200 h-1.5 rounded-md">
+                    <div class="w-full bg-purple-700 h-1.5 rounded-md"></div>
+                </div>
+                 <h2 class="text-gray-400 font-medium">Tailwind CSS</h2>
+                <div class="w-full bg-gray-200 h-1.5 rounded-md">
+                    <div class="w-3/6 bg-purple-700 h-1.5 rounded-md"></div>
+                </div>
+                <h2 class="text-gray-400 font-medium">Vue Js</h2>
+                <div class="w-full bg-gray-200 h-1.5 rounded-md">
+                    <div class="w-2/6 bg-purple-700 h-1.5 rounded-md"></div>
+
+                </div>
+            </div>
+        </div>
+        <hr class="relative bottom-40 border-[5px] fill-black">
+        <div id="Skills"></div>
+        <div>
+            <div class="flex flex-col gap-3 items-center">
+                <h1 class="text-purple-700 font-bold">SERVICES</h1>
+                <h1 class="text-3xl font-medium">I am able to provide</h1>
+                <p class="text-gray-400 w-1/2 text-center">I am a Web Dev</p>
+                </div>
+            </div>
+            <div class="p-5 sm:p-0 flex flex-wrap justify-between">
+                <div class=" md:w-5/12 shadow-xl rounded-lg p-5 my-1 md:my-10 flex flex-col gap-3">
+                    <img class = "h-44 w-44 px"src="images\imgcomingsoon.jpeg" alt="">
+                    <h1 class="font-medium text-lg"></h1>
+                    <p class="text-gray-400"></p>
+                    <a class="text-purple-700 font-semibold text-sm" href="">Read More</a>
+                </div>
+                <div class=" md:w-5/12 shadow-xl rounded-lg p-5 my-1 md:my-10 flex flex-col gap-3">
+                    <img class = "h-44 w-44 px"src="images\imgcomingsoon.jpeg" alt="">
+                    <h1 class="font-medium text-lg"></h1>
+                    <p class="text-gray-400"></p>
+                    <a class="text-purple-700 font-semibold text-sm" href="">Read More</a>
+                </div>
+                <div class="relative left-[27.5rem] md:w-5/12 shadow-xl rounded-lg p-10 my-1 md:my-10 flex flex-col gap-3">
+                    <img class = "h-44 w-44 "src="images\imgcomingsoon.jpeg" alt="">
+                    <h1 class="font-medium text-lg"></h1>
+                    <p class="text-gray-400"></p>
+                    <a class="text-purple-700 font-semibold text-sm" href="">Read More</a>
+                </div>
+                
+
+                <div id="Projects"></div>
+                <div class="mx-auto container">
+                    <div class="flex flex-col gap-3 items-center">
+                        <h1 class="text-purple-700 font-bold">PROJECTS</h1>
+                        <h1 class="text-3xl font-medium">My Works</h1>
+                        <p class="text-gray-400 w-1/2 text-center">Projects that i have developed </p>
+                    </div>
+                    <div class="flex mr-2 space-x-7 justify-center">
+                        <div class="w-64 h-64 shadow-xl rounded-lg p-5 my-3 md:my-10 m-1">
+                            <img src="images\imgcomingsoon.jpeg" alt="">
+                        </div>
+                        <div class="w-64 h-64 shadow-xl rounded-lg p-5 my-3 md:my-10 m-1">
+                           <img src="images\imgcomingsoon.jpeg" alt="">
+                        </div>
+                        <div class="w-64 h-64 shadow-xl rounded-lg p-5 my-3 md:my-10 m-1">
+                            <img src="images\imgcomingsoon.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+                </div>     
+                
+
+            </div>
+            </div>
+        </div>
+
+        <div id="Contact">
+            <div class="container mx-auto">
+                <div class="flex flex-col gap-3 items-center">
+
+                
+                    <h1 class=" text-purple-700 font-bold">CONTACT</h1>
+                    <h1 class="text-3xl">Have a question?</h1>
+                    <p class="w-1/2 text-center text-gray-400">lets chat</p>
+                </div>
+
+                <form class="mt-5 flex flex-col gap-5 items-center">
+                    <input class="p-2 w-full md:w-1/2 ring-1  ring-purple-400 rounded-sm" type="text" placeholder="Name">
+                    <input class="p-2 w-full md:w-1/2 ring-1 ring-purple-400 rounded-sm" type="text" placeholder="Email">
+                    <textarea class = "ring-purple-700 p-2 w-full md:w-1/2"cols="30" rows="10" placeholder="Message..."></textarea>
+                    <button class="w-1/2 bg-purple-700 text-white font-medium px-3 py-2 rounded-md cursor-pointer">Sumbit</button>
+                </form>
+            </div>
+        </div>
+
+
+
+        <div class="w-full top-0 bg-gray-800 ">
+            <div class="container mx-auto py-5 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <img class="w-8" src="" alt="">
+                <span class="text-2xl font-bold text-white">Portfolio</span>
+            </div>
+            <span class="hidden md:block font-medium text-white">2023 Design by Mohamed Awad</span>
+            
+            <img src="" class="hidden md:block w-5 cursor-pointer">
+            <div class="flex gap-2">
+                <img class = "w-4 cursor-pointer" src="" alt="">
+                <img class = "w-4 cursor-pointer" src="" alt="">
+                <img class = "w-4 cursor-pointer" src="" alt="">
+                <img class = "w-4 cursor-pointer" src="" alt="">
+            </div>
+            <div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+    <script src="autotyping.js"></script>
+</html>
